@@ -1,0 +1,6 @@
+project: rnshah9/mayhem-bitcoin-tool
+target: bitcoin-tool
+image: ghcr.io/rnshah9/playground:bitcoin-tool
+
+cmds:
+  - cmd: /repo/bitcoin-tool --input-file @@ --input-format raw --input-type public-key --output-type all
